@@ -1,0 +1,25 @@
+The program is designed to analyze the vocabulary of articles on websites, aiming to assist language learners in easier learning and acquiring high-frequency words.
+本程序用於分析網站內文章的詞彙，用於幫助語言學習者更容易學習和獲取高頻詞彙。
+
+Currently, three functions have been developed. They are to count the occurrences of specified words in the articles, to identify words that appear a certain number of times, and to list high-frequency words.
+目前已經開發三個功能。分別是統計指定詞彙在文章出現次數，出現一定次數的詞彙，列出高頻詞彙。
+
+You can choose to filter out common words that are not necessary for deliberate learning.
+你可以選擇過濾掉常見且不需要刻意學習的詞彙。
+
+Below is the list of filtered words. You can choose to delete or add new words as needed.
+下面是過濾詞彙列表，你可以選擇自行刪除或者添加新詞彙
+COMMON_WORDS = ["a", "the", "is", "and", "of", "to", "in", "that", "it", "for", "with", "as", "on", "at", "I", "you", "he", "she",
+                "we", "they", "me", "him", "her", "us", "them", "this", "that", "these", "those", "here", "there", "when", "where",
+                "why", "how", "which", "what", "who", "whom", "whose", "if", "then", "else", "not", "be", "have", "do", "can", "will",
+                "would", "could", "should", "might", "must",]
+
+Before using it, you need to install two libraries in advance.
+使用前你需要預先安裝一些庫
+
+pip install requests
+
+pip install beautifulsoup4
+
+In the IDE, open the terminal, input the specified command, press Enter, and wait for the installation to complete\
+在IDE打開終端輸入指定，按回車鍵，等待安裝完成即可
