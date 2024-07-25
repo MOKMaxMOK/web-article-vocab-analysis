@@ -75,10 +75,13 @@ def filter_common_words(word_counts):
 
 
 
-COMMON_WORDS = ["a", "the", "is", "and", "of", "to", "in", "that", "it", "for", "with", "as", "on", "at", "I", "you", "he", "she",
-                "we", "they", "me", "him", "her", "us", "them", "this", "that", "these", "those", "here", "there", "when", "where",
-                "why", "how", "which", "what", "who", "whom", "whose", "if", "then", "else", "not", "be", "have", "do", "can", "will",
-                "would", "could", "should", "might", "must",]
+COMMON_WORDS = ["a", "the", "is", "and", "of", "to", "in", "that", "it", "for", "with", "as", "on", "at", 
+                "I", "you", "he", "she", "we", "they", "me", "him", "her", "us", "them", 
+                "this", "that", "these", "those", "here", "there", "when", "where", 
+                "why", "how", "which", "what", "who", "whom", "whose", 
+                "if", "then", "else", "not", "be", "have", "do", "can", "will", 
+                "would", "could", "should", "might", "must",
+                "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 print('ruler/規則')
 print('the program is used to help acount the vocab of the website')
